@@ -1,3 +1,5 @@
+Issue report - https://github.com/withastro/astro/issues/8987
+
 # Vue Designer Astro Vuetify - Quick start template
 
 This is a starter template that pre-includes the [Pinegrow Astro Module](https://www.npmjs.com/package/@pinegrow/astro-module), [Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/), [Pinegrow Vuetify Plugin](https://www.npmjs.com/package/@pinegrow/vuetify-plugin) and other goodies for Vue Designer.
