@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { ref } from 'vue'
-  import { heroImageUrl } from '@/utils/hero'
+  import DarkModeSwitch from './DarkModeSwitch.vue'
 
   const availableTimeSlots = ['3.30PM', '4.20PM', '5.50PM', '6.00PM']
   const selectedTimeSlot = ref(0)
@@ -12,7 +12,11 @@
 </script>
 <template>
   <v-card width="360" class="elevation-4 mt-12 mx-auto">
-    <v-img height="250" cover :src="heroImageUrl"></v-img>
+    <v-img
+      height="250"
+      cover
+      src="https://images.unsplash.com/photo-1654870468927-92c943da24fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDQ5fHxiYWtlcnklMjBjYWtlfGVufDB8fHx8MTY5NTA5NzYyNXww&ixlib=rb-4.0.3&q=85"
+    ></v-img>
     <v-card-item>
       <template #title>
         <div class="d-flex justify-space-between">
@@ -23,7 +27,7 @@
       <template #subtitle>
         <span>Local Favourite</span>
         <v-icon
-          icon="i-ic-round-local-fire-department"
+          icon="mdi-fire"
           class="bg-red-darken-4 ml-2 text-red-darken-2"
           size="small"
         ></v-icon>
